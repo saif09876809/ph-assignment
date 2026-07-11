@@ -23,7 +23,7 @@
   color: #575757;
 }
 
-button {
+.nav-button {
   background-color: rgb(26, 49, 255);
   padding: 12px;
   color: white;
@@ -55,6 +55,19 @@ button {
   flex-direction: column;
   gap: 26px;
 }
+
+.banner-button {
+  background-color: rgb(26, 49, 255);
+  padding: 12px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  width: 210px;
+  height: 60px;
+  font-size: 20px;
+}
+
+
 
 .banner-texts h1 {
   font-size: 65px;
@@ -119,7 +132,9 @@ button {
 .faq {
   margin-left: 100px;
 
-  padding: 24px;
+  padding: 70px;
+
+
 }
 
 .faq-p {
@@ -131,4 +146,88 @@ button {
   display: flex;
   justify-content: center;
   gap: 30px;
+}
+
+.plans {
+  height: 350px;
+  width: 376.66px;
+}
+
+
+.plans {
+  border: 0.5px solid rgb(222, 222, 222);
+
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 320px;
+  margin: 16px 0;
+}
+
+.alignment {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.plans ul {
+  font-size: 15px;
+  color: 333333;
+}
+
+.plans ul li::marker {
+  color: rgb(70, 70, 255);
+}
+
+.pro {
+  background-color: #0d1b2a;
+}
+.pro-p {
+  color: #93c5fd;
+}
+.pro p {
+  color: white;
+  opacity: 50%;
+}
+.pro h2 {
+  color: white;
+}
+
+.pro ul li {
+  color: white;
+  opacity: 80%;
+}
+
+.team {
+  background-color: #f8f9fb;
+}
+
+.plans  {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+}
+
+.plans button {
+  border: 1px solid #2563EB;
+  background-color: white;
+  height: 45px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.pro button {
+  background-color: #2563EB;
+  color: white;
+}
+
+.team button {
+  background-color: #f8f9fb;
+}
+
+.plans-title p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
 }
